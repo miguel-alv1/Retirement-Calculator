@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Retirement Calculator</title>
+</head>
+<body>
+    <header class="top-banner">
+        <h1>Retirement Calculator</h1>
+    </header>
+<!--    <header>-->
+        <nav class="top-nav">
+            <a class="active" href="index.html">Home</a>
+            <a href="marketnews">Market News</a>
+            <a href="contact">Contact</a>
+        </nav>
+<!--        <div class="top-nav">-->
+<!--            <a class="active" href="#index">Home</a>-->
+<!--            <a href="#marketnews">Market News</a>-->
+<!--            <a href="#contact">Contact</a>-->
+<!--            <a href="#about">About The Project</a>-->
+<!--        </div>-->
+<!--    </header>-->
+  <h1>Thymeleaf Retirement Calculator!</h1>
+    <p>
+        Hey there! <th:block th:text="${message}">message</th:block>
+    </p>
+</body>
+</html>

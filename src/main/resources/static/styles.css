@@ -1,0 +1,18 @@
+html{
+    height: 100%;
+}
+.top-banner {
+    text-align: center;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(#F0FFFF, #6F8FAF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
