@@ -4,12 +4,13 @@ import java.util.List;
 
 
 
+
 public interface CustomerService {
     List<Customer> findAll();
 
     // Customer findCustomer(int id);
 
-    // Customer save(Customer customer);
+    Customer save(Customer customer);
     
     // void deleteById(int id);
     
