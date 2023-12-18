@@ -3,8 +3,6 @@ import com.finance.RetirementCalculator.entity.Customer;
 import java.util.List;
 
 
-
-
 public interface CustomerService {
     List<Customer> findAll();
 
@@ -12,6 +10,6 @@ public interface CustomerService {
 
     Customer save(Customer customer);
     
-    // void deleteById(int id);
+    void deleteById(int id);
     
 }
