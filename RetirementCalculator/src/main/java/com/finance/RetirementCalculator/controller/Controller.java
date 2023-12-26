@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
+
+
+
+
+
 @RestController
 public class Controller {
     private CustomerService customerService;
@@ -29,6 +34,11 @@ public class Controller {
     @GetMapping("/customers")
     public List<Customer> findAll() {
         return customerService.findAll();
+    }
+
+    @GetMapping("/customers/{customer_id}")
+    public Customer findCustomer(@PathVariable int customer_id) {
+        return customerService.findById(customer_id);
     }
 
     @PostMapping("/customers")

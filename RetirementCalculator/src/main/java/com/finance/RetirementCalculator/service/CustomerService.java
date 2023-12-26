@@ -3,10 +3,13 @@ import com.finance.RetirementCalculator.entity.Customer;
 import java.util.List;
 
 
+
+
+
 public interface CustomerService {
     List<Customer> findAll();
 
-    // Customer findCustomer(int id);
+    Customer findById(int id);
 
     Customer save(Customer customer);
     
